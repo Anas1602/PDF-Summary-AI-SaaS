@@ -1,11 +1,10 @@
+import HeroSection from "@/components/home/HeroSection";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
   return (
-    <div className="">
-      <Button variant={"outline"} size={"lg"}>
-        Shadcn button
-      </Button>
+    <div className="relative w-full">
+      <HeroSection />
     </div>
   );
 }
